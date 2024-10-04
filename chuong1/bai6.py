@@ -35,7 +35,6 @@ class Stack:
     def count(self):
         print(f"số phần tử trên ngăn xếp là {self.top +1}")
     def Print(self):
-        print(len(self.stack))
         print("nội dung của ngăn xếp là: ",end="")
         for i in range(self.top, -1, -1):
             print(self.stack[i], end=" ")

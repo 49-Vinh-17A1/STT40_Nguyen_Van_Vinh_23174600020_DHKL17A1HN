@@ -7,7 +7,7 @@ class Date:
     def display(self):
         print(f"{self.day}/{self.month}/{self.year}")
     def __str__(self):
-       return f"{self.day:02}/{self.month:02}/{self.year}"
+       return f"{self.day}/{self.month}/{self.year}"
 
 class Employees():
     def __init__(self, ho_ten , ngay_sinh, ngay_vao_cong_ty):

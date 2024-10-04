@@ -15,6 +15,7 @@ class Stack:
             self.top += 1
             self.stack.append(value)
             print(f"đã thêm {value} vào ngăn xếp")
+            
     def is_empty(self):
         return self.top == -1
 
