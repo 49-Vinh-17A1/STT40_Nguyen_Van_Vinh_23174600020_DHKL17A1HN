@@ -39,4 +39,4 @@ obj1 = Elip(0, 2, 4, 5)
 print(obj1.display())
 
 obj2 = obj2(1, 1, 7)
-print(obj2.display())   
+print(obj2.display())    

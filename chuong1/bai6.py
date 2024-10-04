@@ -30,7 +30,7 @@ class Stack:
 
     def delete(self):
         del self.stack
-        print("đã xóa ngăn xếp")
+        print("đã xóa ngăn xếp") 
     
     def count(self):
         print(f"số phần tử trên ngăn xếp là {self.top +1}")

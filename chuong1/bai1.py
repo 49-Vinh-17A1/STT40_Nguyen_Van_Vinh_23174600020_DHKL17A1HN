@@ -11,4 +11,4 @@ class square():
     def thong_tin(self):
         print("chieu dai: {},chieu rong: {}, chu vi: {},dien tich: {}".format(self.dai,self.rong,self.chuvi(),self.dien_tich()))
 obj = square(4,5)
-obj.thong_tin()
+obj.thong_tin() 

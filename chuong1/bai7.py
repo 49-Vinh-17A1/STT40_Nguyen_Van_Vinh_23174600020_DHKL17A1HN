@@ -34,4 +34,4 @@ ngay = Date(7,9,2005)
 ngay.Display()
 
 ngay.next_day()
-ngay.Display()
+ngay.Display() 

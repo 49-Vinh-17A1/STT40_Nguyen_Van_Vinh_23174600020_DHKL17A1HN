@@ -40,3 +40,4 @@ obj1.push(4)
 obj1.push(3)
 obj1.push(5)
 obj1.count()
+ 

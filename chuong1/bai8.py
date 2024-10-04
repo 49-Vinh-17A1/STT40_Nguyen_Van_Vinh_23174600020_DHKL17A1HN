@@ -35,7 +35,7 @@ birth_date_2 = Date(22, 8, 2001)
 start_date_2 = Date(12, 11, 2010)
 emp2 = Employees("Nguyễn Văn B", birth_date_2, start_date_2)
 
-company = Company()
+company = Company() 
 company.add_employees(emp1)
 company.add_employees(emp2)
 
