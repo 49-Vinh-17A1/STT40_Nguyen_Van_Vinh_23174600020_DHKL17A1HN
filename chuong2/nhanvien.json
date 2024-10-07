@@ -1,0 +1,12 @@
+{
+    "ten_cong_ty": "Cong Ty TNHH Đất Việt",
+    "dia_chi": "abc Giải Phóng - Hà Nội",
+    "nhan_vien": [
+        {"ten": "Nguyen Van A", "don_vi": "ke toan"},
+        {"ten": "Tran Thi B", "don_vi": "ke toan"},
+        {"ten": "Le Van C", "don_vi": "marketing"},
+        {"ten": "Pham Thi D", "don_vi": "marketing"},
+        {"ten": "Hoang Van E", "don_vi": "ke toan"},
+        {"ten": "Vu Thi F", "don_vi": "ke toan"}
+    ]
+}
