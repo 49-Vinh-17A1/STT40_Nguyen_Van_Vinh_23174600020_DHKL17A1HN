@@ -1,0 +1,12 @@
+[
+    {
+        "loai": "laptop",
+        "so_luong": 1.0,
+        "gia": 25000.0
+    },
+    {
+        "loai": "nha",
+        "so_luong": 1.0,
+        "gia": 10000000.0
+    }
+]
