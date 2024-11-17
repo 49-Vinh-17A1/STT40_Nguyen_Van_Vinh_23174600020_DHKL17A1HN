@@ -1,18 +1,6 @@
 import pandas as pd
 import numpy as np
-
-data = {
-    'Team': ['England', 'France', 'Germany', 'Italy', 'Russia', 'Spain', 'Portugal', 'Greece'],
-    'Goals': [5, 3, 6, 4, 5, 12, 6, 2],
-    'Shooting Accuracy': [45.0, 38.0, 44.0, 41.0, 50.0, 55.0, 42.0, 35.0],
-    'Yellow Cards': [7, 6, 9, 10, 5, 11, 8, 4],
-    'Red Cards': [0, 1, 0, 1, 0, 0, 0, 0]
-}
-
-df = pd.DataFrame(data)
-
-#df.to_csv('chuong3/euro2012.csv', index=False)
-euro = pd.read_csv('chuong3\euro2012.csv')
+euro = pd.read_csv('C:\\code\gitpythonnangcao\\baitap pỵthon\\chuong3\\euro2012.csv')
 print("giá trị cột goal là: ")
 #1
 print(euro['Goals']) 

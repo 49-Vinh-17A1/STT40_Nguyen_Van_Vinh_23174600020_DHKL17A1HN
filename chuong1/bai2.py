@@ -39,3 +39,4 @@ class TS():
 quan_ly_thi_sinh = TS()
 quan_ly_thi_sinh.nhap_danh_sach_thi_sinh()
 quan_ly_thi_sinh.in_danh_sach_thi_sinh()
+    
