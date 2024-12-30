@@ -13,7 +13,10 @@ def hien_thi_danh_sach():
     for row in rows:
         print(row)
 
-def them_san_pham(name=None,price=None,amount=None):
+def them_san_pham():
+    name = input("nhap ten san pham: ")
+    price = float(input("nhap gia san pham: "))
+    amount = int(input("nhap so luong san pham: "))
     cruso.execute("INSERT INTO product('Name','Price','Amount') VALUES(?,?,?)",(name,price,amount))
     conn.commit()
     return f'Da them San pham'
